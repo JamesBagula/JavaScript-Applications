@@ -1,0 +1,98 @@
+body{
+    background-color: #cd5b45;
+    color: #fff;
+    font: normal 16px Arial, Helvetica, sans-serif;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.button{
+    width: 10%;
+    height: 50px;
+    background: #494eea;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    cursor: pointer;
+    margin: 20px 0;
+    font-weight: 500;
+}
+
+.button:hover{
+    background-color: black;
+    color: #fff;
+}
+
+.container{
+    padding-top: 230px;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.container .fibg{
+    font-size: 40px;
+    font-style: italic;
+}
+
+#txtNumber{
+    width: 20%;
+    height: 25px;
+    border: 1px solid #494eea;
+    outline: 0;
+    padding: 10px;
+    margin: 10px 0 20px;
+    border-radius: 5px;
+}
+.gameDiv{
+    margin: 20px 0;
+    border: 2px dotted white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#dialogoverlay{
+    display: none;
+    opacity: .6;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: cyan;
+    width: 100%;
+    z-index: 10;
+}
+
+#dialogbox{
+    display: none;
+    position: fixed;
+    background: white;
+    border-radius: 5px;
+    width: 550px;
+    z-index: 10;
+ }
+
+#dialogbox > div{
+    background: #fff; 
+    margin: 8px;
+}
+
+#dialogbox > div > #dialogboxhead{
+    background: #666;
+    font-size: 19px;
+    padding: 10px;
+    color: #ccc;
+}
+
+#dialogbox > div > #dialogboxbody{
+    background: darkblue;
+    padding: 20px;
+    color: #fff;
+    overflow: scroll;
+}
+
+#dialogbox > div > #dialogboxfoot{
+    background: black;
+    padding: 10px;
+    text-align: right;
+}
