@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crud operation in javascript</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: maroon;">
+    <table>
+        <tr>
+            <td>
+                <!--HTML form for crud operation-->
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <div>
+                        <label for="firstName">First Name</label>
+                        <input type="text" name="firstName" id="firstName" >
+                    </div>
+                    <div>
+                        <label for="lastName">Last Name</label>
+                        <input type="text" name="lastName" id="lastName" >
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email" >
+                    </div>
+                    <div>
+                        <label for="mobile">Mobile</label>
+                        <input type="number" name="mobile" id="mobile">
+                    </div>
+                    <div>
+                        <label for="job">Job Title</label>
+                        <input type="text" name="job" id="job">
+                    </div>
+                    <div>
+                        <label for="education">Educational Qualification</label>
+                        <input type="text" name="education" id="education">
+                    </div>
+                    <div>
+                        <label for="city">City</label>
+                        <input type="text" name="city" id="city">
+                    </div>
+                    <div>
+                        <label for="pincode">PinCode</label>
+                        <input type="number" name="pincode" id="pincode">
+                    </div>
+                    <div class="form_action--button">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </div>
+                </form>
+            </td>
+            <td>
+                <table class="list" id="employeeList">
+                    <thead>
+                        <tr>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Email</th>
+                            <th>Mobile</th>
+                            <th>Job Title</th>
+                            <th>Education</th>
+                            <th>City</th>
+                            <th>Pin Code</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>
