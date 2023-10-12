@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #fff;
+  background-color: #3e3e3e;
+}
+
+#text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: #76ee00;
+  padding: 2rem;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+#dmy-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#date-container,
+#month-container,
+#year-container {
+  color: #fff;
+  padding: 20px 50px;
+  font-weight: bold;
+}
+
+#date-dd,
+#month-dd,
+#year-ip {
+  width: 120px;
+  text-align: center;
+  outline: none;
+  border-radius: 5px;
+}
+
+#date-dd,
+#year-ip {
+  margin-left: 45px;
+  
+}
+
+#month-dd {
+  margin-left: 33px;
+}
+
+.button {
+  color: #fff;
+  background-color: blue;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  padding: 7px 12px;
+  cursor: pointer;
+}
+
+#day-button:hover {
+  background-color: transparent;
+  transition: 2s;
+}
+
+#reset-button {
+  background-color: #f00;
+}
+#reset-button:hover{
+  background-color: transparent;
+  transition: 2s;
+}
+
+#result {
+  display: none;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 10px;
+  color: maroon;
+  font-weight: bold;
+  
+}
+
+#date-span,
+#day {
+  font-weight: bold;
+  text-decoration: none;
+  color: blue;
+  font-style: italic;
+}
+
